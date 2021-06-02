@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+   
+}
+header{
+    
+    text-align: center;
+    color: blanchedalmond;
+}
+
+.left{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.col-md-4{
+    
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold ;
+    text-align: center;
+    padding:70px; 
+   
+}
+.full
+{
+    text-decoration: none;
+    color: blanchedalmond;
+
+}
+footer{
+    
+    width: 100%;
+    padding-top: 10px;
+}
+footer input{ 
+    background-color: black;
+    color: blanchedalmond;
+    border: none;
+    text-align: center;
+    width: 50%;
+}
