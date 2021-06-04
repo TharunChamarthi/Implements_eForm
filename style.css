@@ -38,3 +38,12 @@ footer input{
     text-align: center;
     width: 50%;
 }
+.form-group input{
+    width: 300px;
+    
+    
+}
+.register-form{
+  
+    width: 100%;
+}
