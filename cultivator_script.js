@@ -6,11 +6,9 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbz9G-RBb20aZzzSuwWBVL
               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
                 .then(response => alert("Successfully submited "))
                 .catch(error => console.error('Error!', error.message))
+                        document.getElementById("Form").reset();
             })
 
-            function Reset(){
-                document.getElementById("Form").reset();
-            }
 
 
 
