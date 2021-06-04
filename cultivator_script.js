@@ -8,6 +8,10 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbz9G-RBb20aZzzSuwWBVL
                 .catch(error => console.error('Error!', error.message))
             })
 
+            function Reset(){
+                document.getElementById("Form").reset();
+            }
+
 
 
             function display_c() {
